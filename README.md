@@ -17,6 +17,26 @@ IS NOT A SCRIPT FOR FIVEM. It's a third party script.
 ``python tcp_hook.py``  
 
 # Configuration  
+## Hook Config  
+```python
+WEBHOOK_CONF = {
+    'webhook_url' : 'changeme',
+}
+```
+Replace **changeme** by your webhook url  
+
+## Fivem Config  
+```python
+FIVEM_CONF = {
+    'server_name' : 'ArtNod test server',
+    'server_ip'   : '51.15.244.36',
+    'server_port' : 30120,
+    'check_delay' : 5
+}
+```
+Replace by your custom settings  
+
+## Custom messages
 You can add your custom messages in ``settings.py``
   * webhook_url
   * color
