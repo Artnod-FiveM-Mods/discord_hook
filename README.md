@@ -1,6 +1,8 @@
 [![GitHub license](https://img.shields.io/github/license/Artnod-FiveM-Mods/discord_hook.svg)](https://github.com/Artnod-FiveM-Mods/discord_hook/blob/master/LICENSE) :small_blue_diamond: 
 [![Discord](https://img.shields.io/discord/436197783331012629.svg)](https://discord.gg/u7dj7Ja)  
 # discord_hook  
+IS NOT A SCRIPT FOR FIVEM. It's a third party script.  
+Features:  
   * Check **IP** and **TCP** port every **X** seconds.
   * Send one or more message with a simple command.
   
