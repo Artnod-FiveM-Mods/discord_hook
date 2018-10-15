@@ -6,7 +6,8 @@
   
 # Use  
   * Run the command from the discord_hook folder.  
-``python cmd_hook.py TOPHOOK``  
+``python cmd_hook.py TOPHOOK``    
+``python tcp_hook.py``  
 
 # Configuration  
 You can add your custom messages in ``settings.py``
