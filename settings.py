@@ -7,7 +7,7 @@ Created on 13 jun. 2018
 '''
 
 WEBHOOK_CONF = {
-    'webhook_url' : 'https://discordapp.com/api/webhooks/470166603531550721/8qUC-Nd1XXCnuU4zh3QSTdjsujOE8CcLmbnr9OQouU_ohw8t5MmthOvRRodJaoTovKH3',
+    'webhook_url' : 'changeme',
     'color' : 123123,
     'msg' : '@everyone',
     'message' : {
@@ -37,7 +37,7 @@ ENABLE_HOOK = [
 ]
 
 TOPHOOK = {
-    'webhook_url' : 'https://discordapp.com/api/webhooks/470166603531550721/8qUC-Nd1XXCnuU4zh3QSTdjsujOE8CcLmbnr9OQouU_ohw8t5MmthOvRRodJaoTovKH3',
+    'webhook_url' : 'changeme',
     'color' : 123123,
     'msg' : '@everyone',
     'message' : {
@@ -61,7 +61,7 @@ TOPHOOK = {
 }
 
 REBOOT15 = {
-    'webhook_url' : 'https://discordapp.com/api/webhooks/470166603531550721/8qUC-Nd1XXCnuU4zh3QSTdjsujOE8CcLmbnr9OQouU_ohw8t5MmthOvRRodJaoTovKH3',
+    'webhook_url' : 'changeme',
     'color' : 16711680,
     'msg' : '@everyone',
     'message' : {
@@ -85,7 +85,7 @@ REBOOT15 = {
 }
 
 REBOOT10 = {
-    'webhook_url' : 'https://discordapp.com/api/webhooks/470166603531550721/8qUC-Nd1XXCnuU4zh3QSTdjsujOE8CcLmbnr9OQouU_ohw8t5MmthOvRRodJaoTovKH3',
+    'webhook_url' : 'changeme',
     'color' : 16711680,
     'msg' : '@everyone',
     'message' : {
@@ -109,7 +109,7 @@ REBOOT10 = {
 }
 
 REBOOT5 = {
-    'webhook_url' : 'https://discordapp.com/api/webhooks/470166603531550721/8qUC-Nd1XXCnuU4zh3QSTdjsujOE8CcLmbnr9OQouU_ohw8t5MmthOvRRodJaoTovKH3',
+    'webhook_url' : 'changeme',
     'color' : 16711680,
     'msg' : '@everyone',
     'message' : {
