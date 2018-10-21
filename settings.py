@@ -15,7 +15,7 @@ LOG_CONF = {
 
 ### TCP HOOK CONF ###
 WEBHOOK_CONF = {
-    'webhook_url' : 'https://discordapp.com/api/webhooks/470166603531550721/8qUC-Nd1XXCnuU4zh3QSTdjsujOE8CcLmbnr9OQouU_ohw8t5MmthOvRRodJaoTovKH3',
+    'webhook_url' : 'changeme ',
     'color' : 123123,
     'msg' : '@everyone',
     'message' : {
@@ -38,7 +38,7 @@ ENABLE_HOOK = [
     'TOPHOOK', 'REBOOT15', 'REBOOT10', 'REBOOT5'
 ]
 TOPHOOK = {
-    'webhook_url' : 'https://discordapp.com/api/webhooks/470166603531550721/8qUC-Nd1XXCnuU4zh3QSTdjsujOE8CcLmbnr9OQouU_ohw8t5MmthOvRRodJaoTovKH3',
+    'webhook_url' : 'changeme ',
     'color' : 123123,
     'msg' : '@everyone',
     'message' : {
@@ -61,7 +61,7 @@ TOPHOOK = {
     },
 }
 REBOOT15 = {
-    'webhook_url' : 'https://discordapp.com/api/webhooks/470166603531550721/8qUC-Nd1XXCnuU4zh3QSTdjsujOE8CcLmbnr9OQouU_ohw8t5MmthOvRRodJaoTovKH3',
+    'webhook_url' : 'changeme ',
     'color' : 16711680,
     'msg' : '@everyone',
     'message' : {
@@ -84,7 +84,7 @@ REBOOT15 = {
     },
 }
 REBOOT10 = {
-    'webhook_url' : 'https://discordapp.com/api/webhooks/470166603531550721/8qUC-Nd1XXCnuU4zh3QSTdjsujOE8CcLmbnr9OQouU_ohw8t5MmthOvRRodJaoTovKH3',
+    'webhook_url' : 'changeme ',
     'color' : 16711680,
     'msg' : '@everyone',
     'message' : {
@@ -107,7 +107,7 @@ REBOOT10 = {
     },
 }
 REBOOT5 = {
-    'webhook_url' : 'https://discordapp.com/api/webhooks/470166603531550721/8qUC-Nd1XXCnuU4zh3QSTdjsujOE8CcLmbnr9OQouU_ohw8t5MmthOvRRodJaoTovKH3',
+    'webhook_url' : 'changeme ',
     'color' : 16711680,
     'msg' : '@everyone',
     'message' : {
