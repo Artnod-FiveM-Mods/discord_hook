@@ -22,7 +22,6 @@ IS NOT A SCRIPT FOR FIVEM. It's a third party script.
    ```
 ## cmd_hook
    * Install [Python 3](https://www.python.org/downloads/)
-   * Install [pywin32](https://github.com/mhammond/pywin32/releases/latest)
    * Run as Administrator:  
    ```shell
    python -m pip install --upgrade pip
@@ -59,7 +58,7 @@ FIVEM_CONF = {
 }
 ```
 Replace by your custom settings  
-Update service with:
+Update service with (Run as Administrator):
 ```shell
 python tcp_hook.py --startup auto update
 ```  
