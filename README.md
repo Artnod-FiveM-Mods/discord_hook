@@ -7,17 +7,33 @@ IS NOT A SCRIPT FOR FIVEM. It's a third party script.
   * Check **IP** and **TCP** port every **X** seconds.
   * Send one or more message with a simple command.
 
-**Requirements:**
-   * Python 3
-   * requests, lxml
- 
-# Use  
-  * Run the command from the discord_hook folder.  
-``python cmd_hook.py TOPHOOK``    
-``python tcp_hook.py``  
+# tcp_hook Installation
+   * Install [Python 3](https://www.python.org/downloads/)
+   * Install [pywin32](https://github.com/mhammond/pywin32/releases/latest)
+   * Run as Administrator:  
+   ```shell
+   python -m pip install --upgrade pip
+   pip install requests lxml
+   ```
+   * Go in ``discord_hook`` folder. Run as Administrator:  
+   ```shell
+   python tcp_hook.py --startup auto install
+   ```
+# cmd_hook Installation
+   * Install [Python 3](https://www.python.org/downloads/)
+   * Install [pywin32](https://github.com/mhammond/pywin32/releases/latest)
+   * Run as Administrator:  
+   ```shell
+   python -m pip install --upgrade pip
+   pip install requests lxml
+   ```
+   * Go in ``discord_hook`` folder. Run:  
+   ```shell
+   python cmd_hook.py HOOKNAME
+   ``` 
 
 # Configuration  
-## Hook Config  
+## tcp_hook  
 ```python
 WEBHOOK_CONF = {
     'webhook_url' : 'changeme',
@@ -25,7 +41,6 @@ WEBHOOK_CONF = {
 ```
 Replace **changeme** by your webhook url  
 
-## Fivem Config  
 ```python
 FIVEM_CONF = {
     'server_name' : 'ArtNod test server',
@@ -36,7 +51,7 @@ FIVEM_CONF = {
 ```
 Replace by your custom settings  
 
-## Custom messages
+## cmd_hook  
 You can add your custom messages in ``settings.py``
   * webhook_url
   * color
