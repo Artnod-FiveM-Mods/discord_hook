@@ -14,7 +14,7 @@ my_logger = logging.getLogger('cmd_hook')
 my_logger.setLevel(logging.DEBUG)
 # create file handler which logs even debug messages
 fhandler = logging.handlers.RotatingFileHandler(
-    '{}discord_hook.log'.format(LOG_CONF['log_dir']), 
+    '{}cmd_hook.log'.format(LOG_CONF['log_dir']), 
     maxBytes = LOG_CONF['max_bytes'], 
     backupCount = LOG_CONF['backup_count']
 )

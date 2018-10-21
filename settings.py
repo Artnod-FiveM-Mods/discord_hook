@@ -6,8 +6,16 @@ Created on 13 jun. 2018
 @author: artnod
 '''
 
+### COMMON CONF ###
+LOG_CONF = {
+    'log_dir' : 'E:\\', # end with "/" or "\\"
+    'max_bytes' : 5000000,
+    'backup_count' : 5,
+}
+
+### TCP HOOK CONF ###
 WEBHOOK_CONF = {
-    'webhook_url' : 'changeme',
+    'webhook_url' : 'https://discordapp.com/api/webhooks/470166603531550721/8qUC-Nd1XXCnuU4zh3QSTdjsujOE8CcLmbnr9OQouU_ohw8t5MmthOvRRodJaoTovKH3',
     'color' : 123123,
     'msg' : '@everyone',
     'message' : {
@@ -18,26 +26,19 @@ WEBHOOK_CONF = {
         'footer' : 'https://gamehosting.co/templates/dev/img/games/fivem-fx/fivem-logo-320.png',
     }
 }
-
 FIVEM_CONF = {
-    'server_name' : 'ArtNod test server',
-    'server_ip'   : '51.15.244.36',
+    'server_name' : 'The Asylum RP',
+    'server_ip'   : '5.39.58.1',
     'server_port' : 30120,
     'check_delay' : 5
 }
 
-LOG_CONF = {
-    'log_dir' : 'E:\\', # end with "/" or "\\"
-    'max_bytes' : 5000000,
-    'backup_count' : 5,
-}
-
+### CMD HOOK CONF ###
 ENABLE_HOOK = [
     'TOPHOOK', 'REBOOT15', 'REBOOT10', 'REBOOT5'
 ]
-
 TOPHOOK = {
-    'webhook_url' : 'changeme',
+    'webhook_url' : 'https://discordapp.com/api/webhooks/470166603531550721/8qUC-Nd1XXCnuU4zh3QSTdjsujOE8CcLmbnr9OQouU_ohw8t5MmthOvRRodJaoTovKH3',
     'color' : 123123,
     'msg' : '@everyone',
     'message' : {
@@ -49,7 +50,7 @@ TOPHOOK = {
         'fields' : [
             {
                 'name' : 'C\'est possible ici une fois toutes les 2h. Merci à vous !',
-                'value' : 'https://gta.top-serveurs.net/the-asylum',
+                'value' : 'https://gta.top-serveurs.net/vote/the-asylum',
             },
         ],
         'thumbnail' : 'https://cdn.discordapp.com/icons/378553286627950602/a280e335f326716f64a2c9deda814863.png',
@@ -59,9 +60,8 @@ TOPHOOK = {
         },
     },
 }
-
 REBOOT15 = {
-    'webhook_url' : 'changeme',
+    'webhook_url' : 'https://discordapp.com/api/webhooks/470166603531550721/8qUC-Nd1XXCnuU4zh3QSTdjsujOE8CcLmbnr9OQouU_ohw8t5MmthOvRRodJaoTovKH3',
     'color' : 16711680,
     'msg' : '@everyone',
     'message' : {
@@ -83,9 +83,8 @@ REBOOT15 = {
         },
     },
 }
-
 REBOOT10 = {
-    'webhook_url' : 'changeme',
+    'webhook_url' : 'https://discordapp.com/api/webhooks/470166603531550721/8qUC-Nd1XXCnuU4zh3QSTdjsujOE8CcLmbnr9OQouU_ohw8t5MmthOvRRodJaoTovKH3',
     'color' : 16711680,
     'msg' : '@everyone',
     'message' : {
@@ -107,9 +106,8 @@ REBOOT10 = {
         },
     },
 }
-
 REBOOT5 = {
-    'webhook_url' : 'changeme',
+    'webhook_url' : 'https://discordapp.com/api/webhooks/470166603531550721/8qUC-Nd1XXCnuU4zh3QSTdjsujOE8CcLmbnr9OQouU_ohw8t5MmthOvRRodJaoTovKH3',
     'color' : 16711680,
     'msg' : '@everyone',
     'message' : {
