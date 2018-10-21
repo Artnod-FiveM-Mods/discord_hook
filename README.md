@@ -59,6 +59,10 @@ FIVEM_CONF = {
 }
 ```
 Replace by your custom settings  
+Update service with:
+```shell
+python tcp_hook.py --startup auto update
+```  
 
 ## cmd_hook  
 You can add your custom messages in ``settings.py``
