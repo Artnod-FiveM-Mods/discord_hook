@@ -34,6 +34,14 @@ IS NOT A SCRIPT FOR FIVEM. It's a third party script.
    ``` 
 
 # Configuration  
+Edit ``settings.py`` file.
+```python
+LOG_CONF = {
+    'log_dir' : 'E:\\', # end with "/" or "\\"
+    'max_bytes' : 5000000,
+    'backup_count' : 5,
+}
+```
 ## tcp_hook  
 ```python
 WEBHOOK_CONF = {
